@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/pvm_skaiciuokle/static/css/main.2eccfb11.css",
+    "main.js": "/pvm_skaiciuokle/static/js/main.a4c5805d.js",
+    "static/js/787.ac06c187.chunk.js": "/pvm_skaiciuokle/static/js/787.ac06c187.chunk.js",
+    "index.html": "/pvm_skaiciuokle/index.html",
+    "main.2eccfb11.css.map": "/pvm_skaiciuokle/static/css/main.2eccfb11.css.map",
+    "main.a4c5805d.js.map": "/pvm_skaiciuokle/static/js/main.a4c5805d.js.map",
+    "787.ac06c187.chunk.js.map": "/pvm_skaiciuokle/static/js/787.ac06c187.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2eccfb11.css",
+    "static/js/main.a4c5805d.js"
+  ]
+}
