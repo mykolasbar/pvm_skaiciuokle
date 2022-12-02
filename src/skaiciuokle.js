@@ -7,8 +7,8 @@ const Skaiciuokle = () => {
     let [bePVM, setbePVM] = useState(0);
     let [PVMDalis, setPMVDalis] = useState(0);
     let [bendraSuma, setBendraSuma] = useState(0);
-    let pvmSkaiciavimai = (event, value) => { setbePVM(bePVM = parseFloat(event.target.value)); setPMVDalis(PVMDalis = bePVM * tarifas); setBendraSuma(bendraSuma = bePVM + PVMDalis)}
-    let procentoParinkimas = (event, value) => { if (event.target.value === "21%") setTarifas(tarifas = 0.21); if (event.target.value === "9%") setTarifas(tarifas = 0.09); if (event.target.value === "5%") setTarifas(tarifas = 0.05); setPMVDalis(PVMDalis = bePVM * tarifas); setBendraSuma(bendraSuma = bePVM + PVMDalis) }
+    let pvmSkaiciavimai = (event, value) => { setbePVM(bePVM = parseFloat(event.target.value)); setPMVDalis(PVMDalis = bePVM * tarifas); setPMVDalis(PVMDalis.toFixed(2)); setBendraSuma((bendraSuma = bePVM + PVMDalis).toFixed(2))}
+    let procentoParinkimas = (event, value) => { if (event.target.value === "21%") setTarifas(tarifas = 0.21); if (event.target.value === "9%") setTarifas(tarifas = 0.09); if (event.target.value === "5%") setTarifas(tarifas = 0.05); setPMVDalis((PVMDalis = bePVM * tarifas).toFixed(2)); setBendraSuma((bendraSuma = bePVM + PVMDalis).toFixed(2)) }
 
     return (
         <form className = "tarifuSkaiciavimas">
